@@ -53,8 +53,8 @@
   <instances>
     <instance objName="country_ussr" x="480" y="540" name="inst_83E2AF90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="country_usa" x="1440" y="540" name="inst_7C76B86C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Choose_country0" x="960" y="180" name="inst_88B4AA6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="country_dalee" x="960" y="900" name="inst_D49C5A0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="country_dalee" x="960" y="900" name="inst_26202EC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="choose_country0" x="960" y="180" name="inst_2952C6C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

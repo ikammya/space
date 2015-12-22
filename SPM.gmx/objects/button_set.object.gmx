@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>buttontext = "Space 0.0.1"
+            <string>buttontext = "Settings"
 </string>
           </argument>
         </arguments>

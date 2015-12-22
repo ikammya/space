@@ -84,10 +84,11 @@
     <sprite>sprites\flag_ussr</sprite>
     <sprite>sprites\flag_usa</sprite>
     <sprite>sprites\redcross</sprite>
-    <sprite>sprites\button1</sprite>
-    <sprite>sprites\button2</sprite>
-    <sprite>sprites\gif</sprite>
-    <sprite>sprites\sprite9</sprite>
+    <sprites name="Buttons">
+      <sprite>sprites\button_1</sprite>
+      <sprite>sprites\button_1p</sprite>
+      <sprite>sprites\button_1_gif</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\backgr0</background>
@@ -102,9 +103,10 @@
     <font>fonts\font_tr80</font>
   </fonts>
   <objects name="objects">
+    <object>objects\backspacer</object>
     <objects name="_main_menu">
       <object>objects\button_rsm</object>
-      <object>objects\button_kek</object>
+      <object>objects\button_set</object>
       <object>objects\button_site</object>
       <object>objects\button_gamename</object>
       <object>objects\button_ng</object>
@@ -113,10 +115,14 @@
       <object>objects\country_ussr</object>
       <object>objects\country_usa</object>
       <object>objects\country_dalee</object>
-      <object>objects\Choose_country0</object>
+      <object>objects\choose_country0</object>
     </objects>
     <objects name="_loadscreen">
       <object>objects\savedgames</object>
+      <object>objects\save0_name</object>
+      <object>objects\save1_name</object>
+      <object>objects\save2_name</object>
+      <object>objects\save3_name</object>
       <object>objects\delete_save</object>
     </objects>
   </objects>

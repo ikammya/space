@@ -20,6 +20,6 @@
   <width>578</width>
   <height>139</height>
   <frames>
-    <frame index="0">images\button1_0.png</frame>
+    <frame index="0">images\button_1_0.png</frame>
   </frames>
 </sprite>

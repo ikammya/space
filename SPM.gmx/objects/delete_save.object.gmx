@@ -81,6 +81,7 @@ if i_d == self.suredelete
           file = file_text_open_write(working_directory + "Saves/save"+string(saveid)+".txt");
           file_text_write_string(file, "");
           file_text_close(file);
+          b = ds_stack_pop(backspacer.roomstack);
           room_goto(loadscreen);
       }
    }

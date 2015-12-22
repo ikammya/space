@@ -25,7 +25,21 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>buttontext = "Space 0.0.1"
+            <string>buttontext = "&lt;Empty&gt;"
+
+filename = working_directory + "Saves/save3.txt";
+file = file_text_open_read(filename);
+name = "&lt;Empty&gt;";
+country = "";
+if (!file_text_eof(file)){
+   country=file_text_read_string(file);
+   file_text_readln(file);
+   buttontext=file_text_read_string(file);
+}
+if (country!=""){
+    instance_create(1760,y, delete_save);
+}
+file_text_close(file);
 </string>
           </argument>
         </arguments>
@@ -129,6 +143,11 @@ if(sprite_index!=button_1_gif){
     }else{
         draw_text_transformed(x,y,buttontext,333/a,333/a,0);
     }
+}
+
+if (country!=""){
+    var flag = asset_get_index("flag_"+country); 
+    draw_sprite_stretched(flag,0,320, y-84, 300, 167);
 }
 </string>
           </argument>
