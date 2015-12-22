@@ -80,13 +80,19 @@
   <sprites name="sprites">
     <sprite>sprites\whitebut0</sprite>
     <sprite>sprites\logo</sprite>
+    <sprite>sprites\logo2</sprite>
     <sprite>sprites\flag_ussr</sprite>
     <sprite>sprites\flag_usa</sprite>
     <sprite>sprites\redcross</sprite>
+    <sprite>sprites\button1</sprite>
+    <sprite>sprites\button2</sprite>
+    <sprite>sprites\gif</sprite>
+    <sprite>sprites\sprite9</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgr0</background>
     <background>background\backgr1</background>
+    <background>background\backgr2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
