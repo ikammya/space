@@ -56,6 +56,10 @@
     <instance objName="save2_name" x="960" y="720" name="inst_91B8A41C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="save3_name" x="960" y="900" name="inst_23FDC4BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="savedgames" x="960" y="180" name="inst_7904D7E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="save0_year" x="1440" y="360" name="inst_6086BD8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="save1_year" x="1440" y="540" name="inst_C8B31245" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="save2_year" x="1440" y="720" name="inst_CDB660FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="save3_year" x="1440" y="900" name="inst_F96B8066" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

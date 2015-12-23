@@ -78,21 +78,19 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\whitebut0</sprite>
     <sprite>sprites\logo</sprite>
     <sprite>sprites\logo2</sprite>
     <sprite>sprites\flag_ussr</sprite>
     <sprite>sprites\flag_usa</sprite>
-    <sprite>sprites\redcross</sprite>
-    <sprite>sprites\recrossp</sprite>
     <sprites name="Buttons">
       <sprite>sprites\button_1</sprite>
       <sprite>sprites\button_1p</sprite>
       <sprite>sprites\button_1_gif</sprite>
       <sprite>sprites\halfbutton_1</sprite>
       <sprite>sprites\halfbutton_1p</sprite>
-      <sprite>sprites\button_2_gif</sprite>
       <sprite>sprites\halfbutton_1_gif</sprite>
+      <sprite>sprites\button_cross</sprite>
+      <sprite>sprites\button_crossp</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -128,6 +126,10 @@
       <object>objects\save1_name</object>
       <object>objects\save2_name</object>
       <object>objects\save3_name</object>
+      <object>objects\save0_year</object>
+      <object>objects\save1_year</object>
+      <object>objects\save2_year</object>
+      <object>objects\save3_year</object>
       <object>objects\delete_save</object>
     </objects>
   </objects>
