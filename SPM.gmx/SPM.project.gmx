@@ -92,6 +92,8 @@
       <sprite>sprites\button_cross</sprite>
       <sprite>sprites\button_crossp</sprite>
     </sprites>
+    <sprite>sprites\notbutton</sprite>
+    <sprite>sprites\title</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgr0</background>
