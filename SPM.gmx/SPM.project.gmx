@@ -84,10 +84,15 @@
     <sprite>sprites\flag_ussr</sprite>
     <sprite>sprites\flag_usa</sprite>
     <sprite>sprites\redcross</sprite>
+    <sprite>sprites\recrossp</sprite>
     <sprites name="Buttons">
       <sprite>sprites\button_1</sprite>
       <sprite>sprites\button_1p</sprite>
       <sprite>sprites\button_1_gif</sprite>
+      <sprite>sprites\halfbutton_1</sprite>
+      <sprite>sprites\halfbutton_1p</sprite>
+      <sprite>sprites\button_2_gif</sprite>
+      <sprite>sprites\halfbutton_1_gif</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
