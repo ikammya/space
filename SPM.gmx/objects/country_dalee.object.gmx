@@ -129,6 +129,8 @@
     
 }
 sprite_index=button_1;
+
+room_goto(Space_Center);
 </string>
           </argument>
         </arguments>

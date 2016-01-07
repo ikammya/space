@@ -128,18 +128,18 @@
   </fonts>
   <objects name="objects">
     <object>objects\backspacer</object>
+    <objects name="_choose_country">
+      <object>objects\country_ussr</object>
+      <object>objects\country_usa</object>
+      <object>objects\country_dalee</object>
+      <object>objects\choose_country0</object>
+    </objects>
     <objects name="_main_menu">
       <object>objects\button_rsm</object>
       <object>objects\button_set</object>
       <object>objects\button_site</object>
       <object>objects\button_gamename</object>
       <object>objects\button_ng</object>
-    </objects>
-    <objects name="_choose_country">
-      <object>objects\country_ussr</object>
-      <object>objects\country_usa</object>
-      <object>objects\country_dalee</object>
-      <object>objects\choose_country0</object>
     </objects>
     <objects name="_loadscreen">
       <object>objects\savedgames</object>
@@ -153,11 +153,17 @@
       <object>objects\save3_year</object>
       <object>objects\delete_save</object>
     </objects>
+    <objects name="_space_center">
+      <object>objects\bardown</object>
+      <object>objects\barup</object>
+      <object>objects\running_news</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Main_Menu</room>
     <room>rooms\choose_country</room>
     <room>rooms\loadscreen</room>
+    <room>rooms\Space_Center</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
