@@ -113,6 +113,9 @@
     <sprite>sprites\news</sprite>
     <sprite>sprites\money</sprite>
     <sprite>sprites\data</sprite>
+    <sprite>sprites\newsp</sprite>
+    <sprite>sprites\moneyp</sprite>
+    <sprite>sprites\datap</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgr0</background>
