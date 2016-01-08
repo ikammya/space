@@ -107,15 +107,17 @@
       <sprite>sprites\nearp</sprite>
     </sprites>
     <sprite>sprites\notbutton</sprite>
+    <sprites name="_space_center">
+      <sprite>sprites\bar_up</sprite>
+      <sprite>sprites\bar_down</sprite>
+      <sprite>sprites\news</sprite>
+      <sprite>sprites\newsp</sprite>
+      <sprite>sprites\money</sprite>
+      <sprite>sprites\moneyp</sprite>
+      <sprite>sprites\data</sprite>
+      <sprite>sprites\datap</sprite>
+    </sprites>
     <sprite>sprites\title</sprite>
-    <sprite>sprites\bar_up</sprite>
-    <sprite>sprites\bar_down</sprite>
-    <sprite>sprites\news</sprite>
-    <sprite>sprites\money</sprite>
-    <sprite>sprites\data</sprite>
-    <sprite>sprites\newsp</sprite>
-    <sprite>sprites\moneyp</sprite>
-    <sprite>sprites\datap</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgr0</background>
@@ -160,6 +162,7 @@
       <object>objects\bardown</object>
       <object>objects\barup</object>
       <object>objects\running_news</object>
+      <object>objects\moneyobj</object>
     </objects>
   </objects>
   <rooms name="rooms">

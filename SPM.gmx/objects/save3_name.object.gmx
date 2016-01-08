@@ -32,9 +32,11 @@ file = file_text_open_read(filename);
 name = "&lt;Empty&gt;";
 country = "";
 if (!file_text_eof(file)){
-   country=file_text_read_string(file);
-   file_text_readln(file);
-   buttontext=file_text_read_string(file);
+    savetext=file_text_read_string(file);
+    var resultMap = json_decode(savetext);
+    country = ds_map_find_value(resultMap, "Country");
+    buttontext = ds_map_find_value(resultMap, "Name");
+    ds_map_destroy(resultMap);
 }
 if (country!=""){
     instance_create(1760,y, delete_save);
@@ -86,6 +88,31 @@ file_text_close(file);
           <argument>
             <kind>1</kind>
             <string>sprite_index=button_1p;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>sprite_index=button_1;
+global.currentsave = 3;
+room_goto(Space_Center);
 </string>
           </argument>
         </arguments>

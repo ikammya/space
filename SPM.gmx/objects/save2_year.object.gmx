@@ -32,11 +32,10 @@ file = file_text_open_read(filename);
 name = "&lt;Empty&gt;";
 country = "";
 if (!file_text_eof(file)){
-   country=file_text_read_string(file);
-   file_text_readln(file);
-   name=file_text_read_string(file);
-   file_text_readln(file);
-   buttontext=file_text_read_string(file);
+    savetext=file_text_read_string(file);
+    var resultMap = json_decode(savetext);
+    buttontext = ds_map_find_value(resultMap, "Date");
+    ds_map_destroy(resultMap);
 }
 file_text_close(file);
 </string>

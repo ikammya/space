@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1920</width>
   <height>1080</height>
-  <vsnap>180</vsnap>
-  <hsnap>160</hsnap>
+  <vsnap>90</vsnap>
+  <hsnap>80</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -54,7 +54,7 @@
     <instance objName="bardown" x="960" y="1080" name="inst_B022E1A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="barup" x="960" y="0" name="inst_DC84B2D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="running_news" x="960" y="1020" name="inst_6DCAFFF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="backspacer" x="-160" y="540" name="inst_BDB14E57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="moneyobj" x="400" y="90" name="inst_920FCD9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
