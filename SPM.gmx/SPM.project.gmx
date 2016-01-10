@@ -126,6 +126,7 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\date_numtodate.gml</script>
     <script>scripts\trace.gml</script>
   </scripts>
   <fonts name="fonts">

@@ -35,7 +35,7 @@ if (!file_text_eof(file)){
     savetext=file_text_read_string(file);
     var resultMap = json_decode(savetext);
     global.date = ds_map_find_value(resultMap, "Date");
-    datetext=global.date;
+    datetext=date_numtodate(global.date);
     global.timespeed = ds_map_find_value(resultMap, "Timespeed");
     ds_map_destroy(resultMap);
 }
@@ -62,7 +62,8 @@ file_text_close(file);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>datetext=global.date;
+            <string>datetext=date_numtodate(global.date);
+global.date = global.date + global.timespeed/room_speed;
 </string>
           </argument>
         </arguments>

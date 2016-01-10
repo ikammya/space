@@ -122,9 +122,9 @@
         playerinfo = ds_map_create();
         ds_map_add(playerinfo, "Country", country);
         ds_map_add(playerinfo, "Name", ngn);
-        ds_map_add(playerinfo, "Date", "01.01.1955");
+        ds_map_add(playerinfo, "Date", date_create_datetime(1955, 1, 1, 0, 0, 0));
         ds_map_add(playerinfo, "Money", string(random(1000000)));
-        ds_map_add(playerinfo, "Timespeed", "1");
+        ds_map_add(playerinfo, "Timespeed", 1);
         
         str = json_encode(playerinfo);
         file_text_write_string(file, str);
