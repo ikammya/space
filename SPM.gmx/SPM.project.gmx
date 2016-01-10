@@ -112,8 +112,8 @@
       <sprite>sprites\bar_down</sprite>
       <sprite>sprites\news</sprite>
       <sprite>sprites\newsp</sprite>
-      <sprite>sprites\money</sprite>
-      <sprite>sprites\moneyp</sprite>
+      <sprite>sprites\moneysprite</sprite>
+      <sprite>sprites\moneyspritep</sprite>
       <sprite>sprites\data</sprite>
       <sprite>sprites\datap</sprite>
     </sprites>
@@ -162,7 +162,12 @@
       <object>objects\bardown</object>
       <object>objects\barup</object>
       <object>objects\running_news</object>
+      <object>objects\timespeed_0</object>
+      <object>objects\timespeed_1</object>
+      <object>objects\timespeed_2</object>
+      <object>objects\timespeed_3</object>
       <object>objects\moneyobj</object>
+      <object>objects\dateobj</object>
     </objects>
   </objects>
   <rooms name="rooms">

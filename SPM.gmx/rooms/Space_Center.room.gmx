@@ -55,6 +55,11 @@
     <instance objName="barup" x="960" y="0" name="inst_DC84B2D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="running_news" x="960" y="1020" name="inst_6DCAFFF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="moneyobj" x="400" y="90" name="inst_920FCD9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="dateobj" x="960" y="90" name="inst_943A6F99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="timespeed_0" x="1200" y="90" name="inst_FD591283" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="timespeed_1" x="1280" y="90" name="inst_FD292D99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="timespeed_2" x="1360" y="90" name="inst_2963BA88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="timespeed_3" x="1440" y="90" name="inst_D8DE94FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
