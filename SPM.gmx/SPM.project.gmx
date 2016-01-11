@@ -134,18 +134,18 @@
   </fonts>
   <objects name="objects">
     <object>objects\backspacer</object>
-    <objects name="_choose_country">
-      <object>objects\country_ussr</object>
-      <object>objects\country_usa</object>
-      <object>objects\country_dalee</object>
-      <object>objects\choose_country0</object>
-    </objects>
     <objects name="_main_menu">
       <object>objects\button_rsm</object>
       <object>objects\button_set</object>
       <object>objects\button_site</object>
       <object>objects\button_gamename</object>
       <object>objects\button_ng</object>
+    </objects>
+    <objects name="_choose_country">
+      <object>objects\country_ussr</object>
+      <object>objects\country_usa</object>
+      <object>objects\country_dalee</object>
+      <object>objects\choose_country0</object>
     </objects>
     <objects name="_loadscreen">
       <object>objects\savedgames</object>
@@ -167,8 +167,12 @@
       <object>objects\timespeed_1</object>
       <object>objects\timespeed_2</object>
       <object>objects\timespeed_3</object>
+      <object>objects\game_pause</object>
       <object>objects\moneyobj</object>
       <object>objects\dateobj</object>
+    </objects>
+    <objects name="_pause_menu">
+      <object>objects\button_resume</object>
     </objects>
   </objects>
   <rooms name="rooms">
