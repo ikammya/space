@@ -173,6 +173,7 @@
     </objects>
     <objects name="_pause_menu">
       <object>objects\button_resume</object>
+      <object>objects\button_settings</object>
     </objects>
   </objects>
   <rooms name="rooms">
