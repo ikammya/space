@@ -105,11 +105,12 @@ if(global.paused){
     global.timespeed=0;
     instance_deactivate_all(false);
     
-    number_of_buttons=3;
+    number_of_buttons=4;
     
     instance_create(1920/2,1*1080/(number_of_buttons+1),button_resume);
     instance_create(1920/2,2*1080/(number_of_buttons+1),button_settings);
-    instance_create(1920/2,3*1080/(number_of_buttons+1),button_settings);
+    instance_create(1920/2,3*1080/(number_of_buttons+1),button_save);
+    instance_create(1920/2,4*1080/(number_of_buttons+1),button_savequit);
 }
 </string>
           </argument>

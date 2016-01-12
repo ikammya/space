@@ -34,7 +34,7 @@ country = "";
 if (!file_text_eof(file)){
     savetext=file_text_read_string(file);
     var resultMap = json_decode(savetext);
-    buttontext = ds_map_find_value(resultMap, "Date");
+    buttontext = date_numtodate(ds_map_find_value(resultMap, "Date"));
     ds_map_destroy(resultMap);
 }
 file_text_close(file);
