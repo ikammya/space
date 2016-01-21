@@ -118,6 +118,7 @@
       <sprite>sprites\datap</sprite>
     </sprites>
     <sprite>sprites\title</sprite>
+    <sprite>sprites\bluescreen</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgr0</background>
@@ -170,6 +171,13 @@
       <object>objects\game_pause</object>
       <object>objects\moneyobj</object>
       <object>objects\dateobj</object>
+      <objects name="_buildings">
+        <object>objects\building_1</object>
+      </objects>
+      <objects name="_screens">
+        <object>objects\screen_1</object>
+        <object>objects\screen_close</object>
+      </objects>
     </objects>
     <objects name="_pause_menu">
       <object>objects\button_resume</object>
