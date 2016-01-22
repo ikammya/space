@@ -116,6 +116,14 @@
       <sprite>sprites\moneyspritep</sprite>
       <sprite>sprites\data</sprite>
       <sprite>sprites\datap</sprite>
+      <sprite>sprites\star</sprite>
+      <sprite>sprites\dollar</sprite>
+      <sprite>sprites\ruble</sprite>
+    </sprites>
+    <sprites name="building">
+      <sprite>sprites\background_building</sprite>
+      <sprite>sprites\exit_building</sprite>
+      <sprite>sprites\exit_buildingp</sprite>
     </sprites>
     <sprite>sprites\title</sprite>
     <sprite>sprites\bluescreen</sprite>
