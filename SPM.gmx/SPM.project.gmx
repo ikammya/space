@@ -118,7 +118,7 @@
       <sprite>sprites\datap</sprite>
       <sprite>sprites\star</sprite>
       <sprite>sprites\dollar</sprite>
-      <sprite>sprites\ruble</sprite>
+      <sprite>sprites\rouble</sprite>
     </sprites>
     <sprites name="building">
       <sprite>sprites\background_building</sprite>
@@ -178,6 +178,12 @@
       <object>objects\timespeed_3</object>
       <object>objects\game_pause</object>
       <object>objects\moneyobj</object>
+      <object>objects\prestigeobj</object>
+      <objects name="Indicators">
+        <object>objects\ind_rouble</object>
+        <object>objects\ind_dollar</object>
+        <object>objects\ind_prestige</object>
+      </objects>
       <object>objects\dateobj</object>
       <objects name="_buildings">
         <object>objects\building_1</object>

@@ -20,6 +20,6 @@
   <width>32</width>
   <height>41</height>
   <frames>
-    <frame index="0">images\ruble_0.png</frame>
+    <frame index="0">images\rouble_0.png</frame>
   </frames>
 </sprite>
