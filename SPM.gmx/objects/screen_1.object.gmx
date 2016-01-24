@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(x+sprite_get_width(bluescreen)/2-sprite_get_width(pause_1)/2, y-sprite_get_height(bluescreen)/2+sprite_get_height(pause_1)/2, screen_close);
+            <string>instance_create(x+sprite_get_width(background_building)/2-sprite_get_width(exit_building)/2, y-sprite_get_height(background_building)/2+sprite_get_height(exit_building)/2, screen_close);
 thebutton = instance_find(screen_close, instance_number(screen_close) - 1);
 global.hostid = id;
 trace(global.hostid);
