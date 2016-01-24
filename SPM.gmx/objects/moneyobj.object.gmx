@@ -42,9 +42,9 @@ if (!file_text_eof(file)){
 file_text_close(file);
 
 if (global.country=="ussr"){
-    instance_create(x+215,y,ind_rouble);
+    instance_create(x+197,y,ind_rouble);
 }else{
-    instance_create(x+215,y,ind_dollar);
+    instance_create(x+197,y,ind_dollar);
 }
 </string>
           </argument>

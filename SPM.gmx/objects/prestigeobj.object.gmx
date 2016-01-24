@@ -40,7 +40,7 @@ if (!file_text_eof(file)){
 }
 file_text_close(file);
 
-instance_create(x+215,y,ind_prestige);
+instance_create(x+197,y,ind_prestige);
 </string>
           </argument>
         </arguments>
