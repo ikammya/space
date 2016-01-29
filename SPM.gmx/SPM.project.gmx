@@ -127,6 +127,7 @@
     </sprites>
     <sprite>sprites\title</sprite>
     <sprite>sprites\bluescreen</sprite>
+    <sprite>sprites\month_bar_sprite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\backgr0</background>
@@ -189,9 +190,11 @@
         <object>objects\building_1</object>
       </objects>
       <objects name="_screens">
+        <object>objects\screen_scroller</object>
         <object>objects\screen_1</object>
         <object>objects\screen_close</object>
       </objects>
+      <object>objects\month_bar</object>
     </objects>
     <objects name="_pause_menu">
       <object>objects\button_resume</object>

@@ -117,7 +117,7 @@
           <argument>
             <kind>1</kind>
             <string>sprite_index = button_1;
-instance_create(1920/2,1080/2,screen_1);
+if(!instance_exists(screen_1)){instance_create(1920/2,1080/2,screen_1);}
 </string>
           </argument>
         </arguments>
