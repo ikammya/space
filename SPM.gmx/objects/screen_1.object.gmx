@@ -65,17 +65,26 @@ he = sprite_get_height(flag_ussr);
 wi = sprite_get_width(flag_ussr);
 ytframe = y-412+42;
 ybframe = y-412+781;
-//draw_line( 0, yframe, 1920, yframe );
+
 ysprite=y+global.scroll_delta;
-he_disp = ytframe-ysprite+he/2;
-he_disp = max(he_disp,0);
-he_disp = min(he_disp,he);
+if (global.scroll_current &lt; -600){global.scroll_current = -600}
+if (global.scroll_current &gt; 600){global.scroll_current = 600}
 
-he_bdisp = ysprite+he/2-ybframe;
-he_bdisp = max(he_bdisp,0);
-he_bdisp = min(he_bdisp,he);
+//trace(global.scroll_delta, global.scroll_current, ysprite);
+//rockets number is loaded in moneyobj
+for(i=0; i&lt;global.rockets_number; i++){
+    yspritenext = ysprite+400*i;
+    
+    he_disp = ytframe-yspritenext+he/2;
+    he_disp = max(he_disp,0);
+    he_disp = min(he_disp,he);
 
-draw_sprite_part(flag_ussr,0,0,he_disp,wi,he-he_disp-he_bdisp,x-wi/2, ysprite-he/2+he_disp);
+    he_bdisp = yspritenext+he/2-ybframe;
+    he_bdisp = max(he_bdisp,0);
+    he_bdisp = min(he_bdisp,he);
+
+    draw_sprite_part(flag_ussr,0,0,he_disp,wi,he-he_disp-he_bdisp,x-wi/2, yspritenext-he/2+he_disp);
+}
 </string>
           </argument>
         </arguments>

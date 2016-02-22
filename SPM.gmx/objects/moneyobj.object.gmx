@@ -46,6 +46,20 @@ if (global.country=="ussr"){
 }else{
     instance_create(x+197,y,ind_dollar);
 }
+
+
+//getting the rockets list
+filename = working_directory + "Data/rockets_"+string(global.country)+".txt";
+file = file_text_open_read(filename);
+global.rockets_number=0;
+if (!file_text_eof(file)){
+    datatext=file_text_read_string(file);
+    trace(datatext);
+    global.rocketmap = json_decode(datatext);
+    global.rockets_number = ds_map_size(global.rocketmap);
+    trace("key",ds_map_find_first(global.rocketmap),global.rockets_number);
+}
+file_text_close(file);
 </string>
           </argument>
         </arguments>

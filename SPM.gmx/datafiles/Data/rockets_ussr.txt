@@ -1,0 +1,1 @@
+{"ussr_rocket_0":{"Name":"R7 Ballistic","Price":"10000"},"ussr_rocket_1":{"Name":"R7 Sputnik","Price":"100000"},"ussr_rocket_2":{"Name":"R7 Luna","Price":"1000000"}}
