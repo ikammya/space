@@ -128,6 +128,20 @@
     <sprite>sprites\title</sprite>
     <sprite>sprites\bluescreen</sprite>
     <sprite>sprites\month_bar_sprite</sprite>
+    <sprites name="new">
+      <sprite>sprites\buy1</sprite>
+      <sprite>sprites\buy1p</sprite>
+      <sprite>sprites\buy2</sprite>
+      <sprite>sprites\buy2p</sprite>
+      <sprite>sprites\buy3</sprite>
+      <sprite>sprites\buy3p</sprite>
+      <sprite>sprites\buy4</sprite>
+      <sprite>sprites\buy4p</sprite>
+      <sprite>sprites\photo</sprite>
+      <sprite>sprites\char</sprite>
+      <sprite>sprites\vkladka1</sprite>
+      <sprite>sprites\vkladka1p</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\backgr0</background>
