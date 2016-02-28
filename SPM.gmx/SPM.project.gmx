@@ -170,6 +170,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\date_numtodate.gml</script>
+    <script>scripts\drawer.gml</script>
     <script>scripts\trace.gml</script>
   </scripts>
   <fonts name="fonts">
@@ -224,9 +225,16 @@
       </objects>
       <objects name="_screens">
         <object>objects\screen_scroller</object>
-        <object>objects\screen_1</object>
         <object>objects\screen_close</object>
-        <object>objects\buybutton</object>
+        <objects name="screen_buyprograms">
+          <object>objects\screen_1</object>
+          <object>objects\buybutton</object>
+          <object>objects\imgobj</object>
+          <object>objects\tab_rockets</object>
+          <object>objects\tab_payloads</object>
+          <object>objects\tab_misc</object>
+          <object>objects\statobj</object>
+        </objects>
       </objects>
       <object>objects\month_bar</object>
     </objects>

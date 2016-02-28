@@ -25,7 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Setting the exit button
+            <string>ytframe = y-412+42;
+ybframe = y-412+781;
+rowdelta = 250;
+
+//Setting the exit button
 instance_create(x+sprite_get_width(background_building)/2-sprite_get_width(exit_building)/2, y-sprite_get_height(background_building)/2+sprite_get_height(exit_building)/2, screen_close);
 thebutton = instance_find(screen_close, instance_number(screen_close) - 1);
 global.hostid = id;
@@ -61,19 +65,17 @@ global.scroll_delta = 0;
             <kind>1</kind>
             <string>draw_self();
 
-he = sprite_get_height(flag_ussr);
-wi = sprite_get_width(flag_ussr);
-ytframe = y-412+42;
-ybframe = y-412+781;
+he = sprite_get_height(buy1);
+wi = sprite_get_width(buy1);
 
-ysprite=y+global.scroll_delta;
-if (global.scroll_current &lt; -600){global.scroll_current = -600}
-if (global.scroll_current &gt; 600){global.scroll_current = 600}
+ysprite=ytframe+rowdelta/2+global.scroll_delta;
+if (global.scroll_current &lt; -rowdelta*(global.rockets_number-1)){global.scroll_current = -rowdelta*(global.rockets_number-1); global.scroll_delta = global.scroll_current;}
+if (global.scroll_current &gt; 2*rowdelta){global.scroll_current = 2*rowdelta; global.scroll_delta = global.scroll_current;}
 
 //trace(global.scroll_delta, global.scroll_current, ysprite);
 //rockets number is loaded in moneyobj
 for(i=0; i&lt;global.rockets_number; i++){
-    yspritenext = ysprite+400*i;
+    yspritenext = ysprite+rowdelta*i;
     
     he_disp = ytframe-yspritenext+he/2;
     he_disp = max(he_disp,0);
@@ -83,21 +85,38 @@ for(i=0; i&lt;global.rockets_number; i++){
     he_bdisp = max(he_bdisp,0);
     he_bdisp = min(he_bdisp,he);
 
-    draw_sprite_part(flag_ussr,0,0,he_disp,wi,he-he_disp-he_bdisp,x-wi/2, yspritenext-he/2+he_disp);
+    //draw_sprite_part(flag_ussr,0,0,he_disp,wi,he-he_disp-he_bdisp,x-wi/2, yspritenext-he/2+he_disp);
     
     //massiv = {};
     
+    if(!(instance_exists(tab_rockets))){
+        instance_create(x+848, y-158, tab_rockets);
+        instance_create(x+848, y+73, tab_payloads);
+        instance_create(x+848, y+304, tab_misc);
+    }
+    
     if(instance_number(buybutton)&lt;i+1){
-        var a = instance_create(x+500, yspritenext, buybutton);
+        var a = instance_create(x+700, yspritenext, buybutton);
+        var b = instance_create(x-640, yspritenext, imgobj);
+        var c = instance_create(x+100, yspritenext, statobj);
         a.number = i;
-        massiv[i] = a;
-        trace(i);
+        b.number = i;
+        c.number = i;
+        a.depth=-3;
+        b.depth=-3;
+        c.depth=-3;
+        a.fatherscreen = id;
+        b.fatherscreen = id;
+        c.fatherscreen = id;
+        massiv[i, 0] = b;
+        massiv[i, 1] = c;
+        massiv[i, 2] = a;
     }else{
-        trace("this");
         for (j=0;j&lt;global.rockets_number;j++){
-            with(massiv[j]){
-                trace(number);
-                y = screen_1.ysprite+400*number;
+            for (k=0; k&lt;=2; k++){
+                with(massiv[j, k]){
+                    y = screen_1.ysprite+fatherscreen.rowdelta*number;
+                }
             }
         }
     }
