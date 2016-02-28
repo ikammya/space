@@ -72,7 +72,6 @@
           <argument>
             <kind>1</kind>
             <string>sprite_index = exit_building;
-trace(host);
 with (host){
     instance_destroy();
 }

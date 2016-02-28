@@ -226,6 +226,7 @@
         <object>objects\screen_scroller</object>
         <object>objects\screen_1</object>
         <object>objects\screen_close</object>
+        <object>objects\buybutton</object>
       </objects>
       <object>objects\month_bar</object>
     </objects>

@@ -34,7 +34,7 @@ country = "";
 if (!file_text_eof(file)){
     savetext=file_text_read_string(file);
     var resultMap = json_decode(savetext);
-    global.money = ds_map_find_value(resultMap, "Money");
+    global.money = real(ds_map_find_value(resultMap, "Money"));
     global.country = ds_map_find_value(resultMap, "Country");
     moneytext = string(global.money);
     ds_map_destroy(resultMap);
